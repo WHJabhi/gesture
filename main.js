@@ -44,8 +44,8 @@ function gotResult(error,results){
     }
     else{
         console.log(results);
-        document.getElementById('Genestic1').innerHTML = results[0].label;
-        document.getElementById('Genestic2').innerHTML = results[1].label;
+        document.getElementById('result1').innerHTML = results[0].label;
+        document.getElementById('result2').innerHTML = results[1].label;
         prediction_1 = results[0].label;
         prediction_2 = results[1].label;
         speak();
